@@ -1,0 +1,85 @@
+@font-face {
+  font-family: oxygen;
+  src: url(./Oxygen-Regular.ttf);
+}
+
+body {
+  font-family: oxygen;
+  margin: 0px;
+}
+
+.large-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameboard {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  height: 100px;
+  width: 100px;
+
+  background-color: beige;
+  border: 1px solid black;
+
+  font-size: x-large;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell:hover {
+  background-color: rgb(205, 205, 179);
+}
+
+.filled-cell {
+  height: 100px;
+  width: 100px;
+
+  background-color: white;
+  border: 1px solid black;
+
+  font-size: x-large;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.win-cell {
+  height: 100px;
+  width: 100px;
+
+  background-color: goldenrod;
+  border: 1px solid black;
+
+  font-size: x-large;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
